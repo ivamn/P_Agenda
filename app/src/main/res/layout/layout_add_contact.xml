@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@android:color/darker_gray">
+    tools:context=".MainActivity">
 
     <FrameLayout
         android:id="@+id/foto_layout"
@@ -82,13 +81,14 @@
             android:gravity="center_vertical">
 
             <ImageView
+                android:id="@+id/ico_nombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/ico_nombre"
-                android:src="@drawable/ic_cliente"
-                android:layout_marginEnd="8dp"/>
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/baseline_perm_identity_24"/>
 
             <EditText
+                android:id="@+id/nombre"
                 android:layout_width="0dp"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -106,13 +106,14 @@
         android:gravity="center_vertical">
 
         <ImageView
+            android:id="@+id/ico_apellidos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ico_apellidos"
-            android:src="@drawable/ic_cliente"
-            android:layout_marginEnd="8dp"/>
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/baseline_perm_identity_24" />
 
         <EditText
+            android:id="@+id/apellidos"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -132,10 +133,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ico_tlf"
-            android:src="@drawable/ic_telefono"
+            android:src="@drawable/baseline_phone_24"
             android:layout_marginEnd="8dp"/>
 
         <EditText
+            android:id="@+id/phone"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
@@ -155,10 +157,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ico_email"
-            android:src="@drawable/ic_correo"
+            android:src="@drawable/baseline_email_24"
             android:layout_marginEnd="8dp"/>
 
         <EditText
+            android:id="@+id/correo"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"

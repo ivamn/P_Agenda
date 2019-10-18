@@ -1,2 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <color name="colorRed">@android:color/holo_red_dark</color>
+    <color name="colorIconos">@android:color/darker_gray</color>
+</resources>
